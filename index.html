@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<title>Javascript</title>
+		<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="exam.css">
 		<script>
 				function show(){
 					var d;
@@ -9,22 +11,25 @@
 					var i = 0;
 					d = document.getElementById("data").value ;
 					a = document.getElementById("amount").value;
+					if(	)
 					for ( i = 0; a>=i ;i++)
 					{
 						document.write(d+"</br>");
 					}		
-                    document.write("refresh the page to go back");
+                    document.write("refresh the page to go back");	
 				}
 		</script>
 	</head>
 	<body>
-            <p>Javascript Assignment</p>
-            
-			<label for="data">Input the text:</label>  <input id="data" type="text" name="Data">
-            </br>
-            <label for="amount">Input the amount of line u want to show:</label> <input id="amount" type="number" name="Amount">
-            </br>
-            <button id="cal" onclick="show()" type="submit" >Show</button>
+		<div id="position">
+			<h2>Javascript Assignment</h2>	
+			<div id="input">
+				<label for="data">Input the text:</label>  <input id="data" type="text" name="Data">
+           		</br>
+            	<label for="amount">Input the amount of line u want to show:</label> <input id="amount" type="number" name="Amount">
+            	</br>
+				<button id="cal" onclick="show()" type="submit" >Show</button>	
+			</div>	
+		</div>
 	</body>
 </html>
-

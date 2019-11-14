@@ -1,0 +1,29 @@
+body
+{
+    font-family: 'Bebas Neue', cursive;
+    display:flex;
+}
+button
+{
+    background-color : initial;
+    border : 1px solid black;
+    border-radius: 3px;
+    padding-left:30px;
+    padding-right:30px;
+}
+#position
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#input{
+    display:flex;
+    flex-direction: row;
+ 
+}
+input
+{
+    margin-left:10px;
+    margin-right:50px;
+}
